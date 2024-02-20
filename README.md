@@ -1,9 +1,11 @@
 # Sentiment-Analysis-Using-BERT-Neural-Network
- Created a project of Machine Learning based on Sentiment Analysis Using BERT Neural Network
- Here we have used "Transformers" , "Pytorch", "BeautifulSoup" library
- Transformers library is commonly used for working with transformer-based models, including BERT, GPT, and others. 
- In transformers library there is a class "AutoTokenizer" which is responsible for tokenizing input text, converting it into numerical input that can be fed into the neural network. 
- Also in Transformer library there is class "AutoModelForSequenceClassification"  which is used to load a pre-trained transformer model for sequence classification tasks. The model is fine-tuned to classify sequences of text into predefined categories.
- After training the model using transformer we used web scrapping to extract data from the webpage.
- BeautifulSoup was used for web scrapping the data
- Then this data is used to test the model performance.
+ We'll go through how to get up and running with Hugging Face Transformers and BERT to be able to calculate sentiment. We'll run the model using a single prompt but also leverage BeautifulSoup to scrape reviews from Yelp to be able to calculate sentiment on a larger scale. 
+
+Transformers allows you to easily leverage a pre-trained BERT neural network.
+
+We'll learn how to: 
+1. Install Transformers
+2. Perform Sentiment Scoring using BERT and Python
+3. Scrape reviews from Yelp and Calculate their Sentiment
+## Library we used here are:
+<img width="499" alt="image" src="https://github.com/Aadarsh1132/Sentiment-Analysis-Using-BERT-Neural-Network/assets/133105879/513d7ed1-1415-4e62-ade2-2be98d37034a">
